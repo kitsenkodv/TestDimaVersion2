@@ -11,10 +11,6 @@ import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
-
-import static java.util.concurrent.TimeUnit.DAYS;
-import static java.util.concurrent.TimeUnit.SECONDS;
 
 
 public class MainPage {
@@ -22,13 +18,12 @@ public class MainPage {
 
     private int indexProduct = 3;
     private String smgSuccessfully = "Product successfully added to your shopping cart";
-   // private WebElement er = driver.findElement(By.xpath("//div[@id='layer_cart']"));
     private By addToCart_btn = By.xpath(".//a[@title = 'Add to cart']");
     private By productContainer = By.xpath("//ul[@id='homefeatured']/li["+ indexProduct +"]");
     private By nameProduct = By.xpath(".//h5/a[contains(text(),'Printed Dress')]");
     private By imgProduct = By.xpath(".//a/img[@class ='replace-2x img-responsive']");
     private By imgProductCart = By.xpath("//div[@id='layer_cart']//img");
-    private By priceProductMain = By.xpath(".//div[@class = 'content_price']/span[1]");
+
 
 
     public MainPage(WebDriver driver) {
@@ -49,7 +44,6 @@ public class MainPage {
     }
 
     public String getProductImg () {
-        //WebElement productImg = driver.findElement(productContainer).findElement(By.xpath(".//a/img[@class ='replace-2x img-responsive']"));
         WebElement productImg = driver.findElement(productContainer).findElement(imgProduct);
         return productImg.getAttribute("src");
 

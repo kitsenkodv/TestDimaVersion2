@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2398cbec-346a-4fb4-bec1-7e945b39e738" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storied/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storied/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/storied_test/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/storied_test/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/storied/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/storied/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/storied_test/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/storied_test/LoginPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
