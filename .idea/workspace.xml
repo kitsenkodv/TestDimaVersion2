@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2398cbec-346a-4fb4-bec1-7e945b39e738" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/test-selenium-dima.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/automationpractice/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/storied/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/storied_test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/storied/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storied/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/storied_test/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/storied_test/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/automationpractice/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automationpractice/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/storied/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/storied/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/storied_test/LoginDateProviderClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/storied_test/LoginDateProviderClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/storied_test/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/storied_test/LoginPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,26 +174,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="133" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594043183024" />
-    <state width="1346" height="243" key="GridCell.Tab.0.bottom" timestamp="1594193840267">
+    <state width="1346" height="243" key="GridCell.Tab.0.bottom" timestamp="1594202775694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594193840267" />
-    <state width="1346" height="243" key="GridCell.Tab.0.center" timestamp="1594193840266">
+    <state width="1346" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775694" />
+    <state width="1346" height="243" key="GridCell.Tab.0.center" timestamp="1594202775693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594193840266" />
-    <state width="1346" height="243" key="GridCell.Tab.0.left" timestamp="1594193840266">
+    <state width="1346" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775693" />
+    <state width="1346" height="243" key="GridCell.Tab.0.left" timestamp="1594202775693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594193840266" />
-    <state width="1346" height="243" key="GridCell.Tab.0.right" timestamp="1594193840267">
+    <state width="1346" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775693" />
+    <state width="1346" height="243" key="GridCell.Tab.0.right" timestamp="1594202775693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594193840267" />
+    <state width="1346" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775693" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1594054498982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

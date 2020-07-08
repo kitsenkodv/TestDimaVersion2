@@ -2,7 +2,7 @@ package storied;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
+
 
 public class LoginPage extends BasePage {
 
@@ -28,10 +28,8 @@ public class LoginPage extends BasePage {
         return this;
     }
 
-    public LoginPage checkErrorMessage (String errorMessage) {
-        String errorText = getText(error);
-        Assert.assertEquals(errorMessage, errorText);
-        return this;
+    public String getErrorMessage () {
+        return getText(error);
     }
 
 }

@@ -11,8 +11,8 @@ import storied.LoginPage;
 import java.util.concurrent.TimeUnit;
 
 public class MainPageTest {
-    private WebDriver driver;
-    private MainPage mainPage;
+    public WebDriver driver;
+    public MainPage mainPage;
 
 
     @BeforeTest
