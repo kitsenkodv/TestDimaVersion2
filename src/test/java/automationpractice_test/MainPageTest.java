@@ -1,41 +1,22 @@
 package automationpractice_test;
 
 
-import automationpractice.MainPage;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
-import java.util.concurrent.TimeUnit;
-
-public class MainPageTest {
-    public WebDriver driver;
-    public MainPage mainPage;
+import static org.testng.Assert.assertTrue;
 
 
-    @BeforeTest
-    public void setUp () {
-        System.setProperty("webdriver.chrome.driver", "D:\\QA AUTO\\test-selenium-dima\\drivers\\chromedriver.exe");
-
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        driver.get("http://automationpractice.com/index.php");
-        mainPage = new MainPage(driver);
-    }
+public class MainPageTest extends BaseTest {
 
     @Test
-    public void addToCart () {
-        mainPage.selectProduct();
-       // mainPage.testExpectedConditions();
-        mainPage.AssertProductCart();
+    public void CheckAddToCart () {
+        mainPage.goTo()
+                .selectProduct();
+        assertTrue(mainPage.getPrevCart().isDisplayed());
+        Assert.assertEquals( mainPage.getProductNameCart() , mainPage.getProductName());
+        Assert.assertEquals(mainPage.getProductCartImg() , mainPage.getProductImg());
+        Assert.assertEquals(mainPage.getSmgSuccessfully() , "Product successfully added to your shopping cart");
     }
-
-//    @AfterTest
-//    public void tearDown () {
-//        driver.quit();
-//    }
 
 }

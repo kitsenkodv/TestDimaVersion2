@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2398cbec-346a-4fb4-bec1-7e945b39e738" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automationpractice/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/automationpractice/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automationpractice/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/automationpractice/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automationpractice/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/automationpractice_test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automationpractice_test/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="coverage" />
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest">
+  <component name="RunManager" selected="TestNG.MainPageTest">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-selenium-dima" />
       <extension name="coverage">
@@ -135,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.MainPageTest" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.MainPageTest.addToCart (1)" />
         <item itemvalue="TestNG.LoginPageTest.registerFailTest (1)" />
         <item itemvalue="TestNG.LoginPageTest.registerFailTest" />
@@ -169,26 +175,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="133" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594043183024" />
-    <state width="1346" height="243" key="GridCell.Tab.0.bottom" timestamp="1594202775694">
+    <state width="1346" height="243" key="GridCell.Tab.0.bottom" timestamp="1594212305247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775694" />
-    <state width="1346" height="243" key="GridCell.Tab.0.center" timestamp="1594202775693">
+    <state width="1346" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305247" />
+    <state width="1346" height="243" key="GridCell.Tab.0.center" timestamp="1594212305247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775693" />
-    <state width="1346" height="243" key="GridCell.Tab.0.left" timestamp="1594202775693">
+    <state width="1346" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305247" />
+    <state width="1346" height="243" key="GridCell.Tab.0.left" timestamp="1594212305246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775693" />
-    <state width="1346" height="243" key="GridCell.Tab.0.right" timestamp="1594202775693">
+    <state width="1346" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305246" />
+    <state width="1346" height="243" key="GridCell.Tab.0.right" timestamp="1594212305247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594202775693" />
+    <state width="1346" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305247" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1594054498982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

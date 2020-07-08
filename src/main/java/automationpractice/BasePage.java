@@ -2,10 +2,10 @@ package automationpractice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static org.testng.Assert.assertTrue;
 
 public class BasePage {
     public WebDriver driver;
@@ -20,13 +20,30 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
     }
 
-    public void click (By elementBy) {
+//    public void click (By elementBy) {
+//        waitVisibility(elementBy);
+//        driver.findElement(elementBy).click();
+//    }
+
+//    public void isElementDisplayed (By elementBy) {
+//        waitVisibility(elementBy);
+//        assertTrue(driver.findElement(elementBy).isDisplayed());
+//    }
+
+    public String getText (By elementBy) {
         waitVisibility(elementBy);
-        driver.findElement(elementBy).click();
+        return driver.findElement(elementBy).getText();
     }
 
-    public void isElementDisplayed (By elementBy) {
+    public String getAttributeElement (By elementBy, String attributeElement) {
         waitVisibility(elementBy);
-        assertTrue(driver.findElement(elementBy).isDisplayed());
+        WebElement webElement = driver.findElement(elementBy);
+        return webElement.getAttribute(attributeElement);
     }
+
+    public WebElement getWebElement (By elementBy) {
+        waitVisibility(elementBy);
+        return driver.findElement(elementBy);
+    }
+
 }
