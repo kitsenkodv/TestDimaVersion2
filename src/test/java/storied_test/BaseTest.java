@@ -14,7 +14,7 @@ public class BaseTest {
 
     @BeforeTest
     public void setUp () {
-        System.setProperty("webdriver.chrome.driver", "..\\test-selenium-dima\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();

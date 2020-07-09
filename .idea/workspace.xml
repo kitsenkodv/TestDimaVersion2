@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2398cbec-346a-4fb4-bec1-7e945b39e738" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automationpractice/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automationpractice/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationpractice_test/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/storied_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/storied_test/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/automationpractice/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automationpractice/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/automationpractice/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automationpractice/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/automationpractice_test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automationpractice_test/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automationpractice_test/MainPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/storied_test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/storied_test/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="XML Properties File" />
       </list>
     </option>
   </component>
@@ -45,12 +47,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="coverage" />
   </component>
-  <component name="RunManager" selected="TestNG.MainPageTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA AUTO\test-selenium-dima\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/QA AUTO/test-selenium-dima/src/main/resources/testng.xml">
+    <configuration name="D:/QA AUTO/test-selenium-dima/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-selenium-dima" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-selenium-dima" />
       <extension name="coverage">
@@ -78,24 +95,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="storied_test" />
       <option name="MAIN_CLASS_NAME" value="storied_test.LoginPageTest" />
-      <option name="METHOD_NAME" value="registerFailTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest.registerFailTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.storied.stage_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.storied.stage_test" />
-      <option name="MAIN_CLASS_NAME" value="co.storied.stage_test.LoginPageTest" />
       <option name="METHOD_NAME" value="registerFailTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/QA AUTO/test-selenium-dima/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.MainPageTest" />
         <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.MainPageTest.addToCart (1)" />
         <item itemvalue="TestNG.LoginPageTest.registerFailTest (1)" />
-        <item itemvalue="TestNG.LoginPageTest.registerFailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,34 +166,39 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1594043100966" />
+    <state x="549" y="201" key="#Project_Structure" timestamp="1594293828472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="201" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594293828472" />
     <state x="488" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1593963481131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593963481131" />
-    <state x="463" y="133" key="FileChooserDialogImpl" timestamp="1594043183024">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="651" y="190" key="FileChooserDialogImpl" timestamp="1594213036131">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="133" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594043183024" />
-    <state width="1346" height="243" key="GridCell.Tab.0.bottom" timestamp="1594212305247">
+    <state x="651" y="190" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594213036131" />
+    <state width="1814" height="387" key="GridCell.Tab.0.bottom" timestamp="1594305011037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305247" />
-    <state width="1346" height="243" key="GridCell.Tab.0.center" timestamp="1594212305247">
+    <state width="1814" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594305011037" />
+    <state width="1814" height="387" key="GridCell.Tab.0.center" timestamp="1594305011037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305247" />
-    <state width="1346" height="243" key="GridCell.Tab.0.left" timestamp="1594212305246">
+    <state width="1814" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594305011037" />
+    <state width="1814" height="387" key="GridCell.Tab.0.left" timestamp="1594305011036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305246" />
-    <state width="1346" height="243" key="GridCell.Tab.0.right" timestamp="1594212305247">
+    <state width="1814" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594305011036" />
+    <state width="1814" height="387" key="GridCell.Tab.0.right" timestamp="1594305011037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594055867906" />
-    <state width="1346" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594212305247" />
+    <state width="1814" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594305011037" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1594054498982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

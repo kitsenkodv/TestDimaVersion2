@@ -10,7 +10,7 @@ public class MainPage extends BasePage {
     String SITE_URL = "http://automationpractice.com/index.php";
 
     private int indexProduct = 3;
-    private By addToCart_btn = By.xpath(".//a[@title = 'Add to cart']");
+    private By addToCart_btn = By.xpath("//*[@id='homefeatured']//li["+ indexProduct +"]//a[@title = 'Add to cart']");
     private By productContainer = By.xpath("//ul[@id='homefeatured']/li["+ indexProduct +"]");
     private By nameProduct = By.xpath("//ul[@id='homefeatured']/li["+ indexProduct +"]//h5/a[contains(text(),'Printed Dress')]");
     private By nameProductCart = By.xpath("//*[@id='layer_cart_product_title']");
@@ -30,8 +30,11 @@ public class MainPage extends BasePage {
 
     public MainPage selectProduct() {
         Actions builder = new Actions(driver);
-        WebElement addToCartContainer_btn = driver.findElement(productContainer).findElement(addToCart_btn);
-        builder.moveToElement(driver.findElement(productContainer)).click(addToCartContainer_btn).build().perform();
+        builder
+                .moveToElement(driver.findElement(productContainer))
+                .click(driver.findElement(addToCart_btn))
+                .build()
+                .perform();
         return this;
     }
 

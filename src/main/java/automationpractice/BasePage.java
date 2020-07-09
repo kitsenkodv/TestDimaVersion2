@@ -20,10 +20,10 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
     }
 
-//    public void click (By elementBy) {
-//        waitVisibility(elementBy);
-//        driver.findElement(elementBy).click();
-//    }
+    public void click (By elementBy) {
+        //waitVisibility(elementBy);
+        driver.findElement(elementBy).click();
+    }
 
 //    public void isElementDisplayed (By elementBy) {
 //        waitVisibility(elementBy);
